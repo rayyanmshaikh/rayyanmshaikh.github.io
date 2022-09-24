@@ -163,7 +163,6 @@ nav {
   overflow: hidden;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
   margin-bottom: 28px;
-  transform: scaleX(-1);
   animation: animate-profile-picture 800ms 200ms backwards;
 }
 
