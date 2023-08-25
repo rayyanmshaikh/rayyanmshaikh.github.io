@@ -2,270 +2,296 @@
 
 <html lang="en">
 
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Rayyan Shaikh</title>
-      <link rel="stylesheet" href="styles.css">
-      <script src="https://kit.fontawesome.com/214fcc9ede.js" crossorigin="anonymous"></script>
-      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicon//favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicon//favicon-16x16.png">
-      <link rel="manifest" href="favicon//site.webmanifest">
-      <link rel="mask-icon" href="favicon//safari-pinned-tab.svg" color="#5bbad5">
-      <meta name="msapplication-TileColor" content="#15883b">
-      <meta name="theme-color" content="#15883b">
-   </head>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Rayyan Shaikh</title>
+   <link rel="stylesheet" href="styles.css">
+   <script src="https://kit.fontawesome.com/214fcc9ede.js" crossorigin="anonymous"></script>
+   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="favicon//favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="favicon//favicon-16x16.png">
+   <link rel="manifest" href="favicon//site.webmanifest">
+   <link rel="mask-icon" href="favicon//safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#15883b">
+   <meta name="theme-color" content="#15883b">
+</head>
 
-   <body>
+<body>
 
-      <section id="about-me">
+   <section id="about-me">
 
-         <nav>
-            <div class="personal__logo">Rayyan Shaikh</div>
+      <nav>
+         <div class="personal__logo">Rayyan Shaikh</div>
 
-            <ul class="nav__link--list">
-               <li class="nav__link"><a href="#languages" class="nav__link--anchor link__hover-effect link__hover-effect--black">Languages</a></li>
-               <li class="nav__link"><a href="#projects" class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a></li>
-               <li class="nav__link"><a href="mailto:rayyan.shaikh@mail.utoronto.ca" class="nav__link--anchor nav__link--anchor-primary">Contact</a></li>
+         <ul class="nav__link--list">
+            <li class="nav__link"><a href="#languages"
+                  class="nav__link--anchor link__hover-effect link__hover-effect--black">Languages</a></li>
+            <li class="nav__link"><a href="#projects"
+                  class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a></li>
+            <li class="nav__link"><a href="mailto:rayyan.shaikh@mail.utoronto.ca"
+                  class="nav__link--anchor nav__link--anchor-primary">Contact</a></li>
+         </ul>
+
+      </nav>
+
+      <!-- Change so big picture taking up the left before the language stack and text right beside it with contacts below the text or pic -->
+      <div class="flex flex-1">
+         <div class="about-me__info row">
+            <div class="about-me__info--container">
+               <figure class="about-me__picture--mask"><img src="./assets/me2.jpg" class="about-me__picture"
+                     alt="A Picture of Me!"></figure>
+
+               <h1 class="about-me__info--title">Hey! I'm <span class="text--green">Rayyan Shaikh</span>&nbsp;<span
+                     class="wave">👋</span></h1>
+
+               <p class="about-me__info--para">
+                  I am an <strong class="text--green">aspiring software engineer studying at the University of
+                     Toronto,</strong> with a strong passion for building
+                  responsive and performant
+                  applications that have a positive impact on the world.
+               </p>
+
+               <div class="about-me__links">
+                  <a href="https://www.linkedin.com/in/rayyan-m-shaikh/" class="about-me__link" target="_blank">
+                     <i class="fab fa-linkedin-in fa-xl"></i>
+                  </a>
+
+                  <a href="https://github.com/rayyanmshaikh" class="about-me__link" target="_blank">
+                     <i class="fab fa-github fa-xl"></i>
+                  </a>
+
+                  <a href="mailto:rayyan.shaikh@mail.utoronto.ca" class="about-me__link" target="_blank">
+                     <i class="fa-solid fa-envelope fa-xl"></i>
+                  </a>
+
+                  <a href="https://drive.google.com/file/d/1PFC8FInwBTAkt8-L53S1oqUR8VLiByob/view?usp=drive_link"
+                     target="_blank" class="about-me__link" target="_blank">
+                     <i class="fa-solid fa-file fa-xl"></i>
+                  </a>
+
+               </div>
+
+            </div>
+
+            <figure class="about-me__img--container"><img src="./assets/undraw_websites.svg" class="about-me__img"
+                  alt=""></figure>
+
+         </div>
+      </div>
+   </section>
+
+   <section id="languages">
+      <div class="container">
+         <div class="row">
+            <h1 class="section__title">This is my <span class="text--green">technology stack</span></h1>
+
+            <div class="language__list">
+               <div class="language">
+                  <figure class="language__img--wrapper"><img src="./assets/HTML5.png" alt="HTML Logo"
+                        class="language__img" /></figure>
+                  <span class="language__name">HTML</span>
+               </div>
+
+               <div class="language">
+                  <figure class="language__img--wrapper"><img src="./assets/CSS3.png" alt="CSS Logo"
+                        class="language__img" /></figure>
+                  <span class="language__name">CSS</span>
+               </div>
+
+               <div class="language">
+                  <figure class="language__img--wrapper"><img src="./assets/Javascript.png" alt="JavaScript Logo"
+                        class="language__img" /></figure>
+                  <span class="language__name">JavaScript</span>
+               </div>
+
+               <div class="language">
+                  <figure class="language__img--wrapper"><img src="./assets/PHP.png" alt="PHP Logo"
+                        class="language__img" /></figure>
+                  <span class="language__name">PHP</span>
+               </div>
+
+               <div class="language">
+                  <figure class="language__img--wrapper"><img src="./assets/Python.png" alt="Python Logo"
+                        class="language__img" /></figure>
+                  <span class="language__name">Python</span>
+               </div>
+
+               <div class="language">
+                  <figure class="language__img--wrapper"><img src="./assets/Java.png" alt="Java Logo"
+                        class="language__img" /></figure>
+                  <span class="language__name">Java</span>
+               </div>
+
+               <div class="language">
+                  <figure class="language__img--wrapper"><img src="./assets/C.png" alt="C Logo" class="language__img" />
+                  </figure>
+                  <span class="language__name">C</span>
+               </div>
+
+               <div class="language">
+                  <figure class="language__img--wrapper"><img src="./assets/R.svg" alt="R Logo" class="language__img" />
+                  </figure>
+                  <span class="language__name">R</span>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="projects">
+      <div class="container">
+         <div class="row">
+            <h1 class="section__title">Here are some of my <span class="text--green">projects</span></h1>
+
+            <ul class="project__list">
+               <li class="project">
+                  <div class="project__wrapper">
+                     <img src="./assets/Treasure Hunter.png" class="project__img" alt="Treasure Hunter Java Game">
+
+                     <div class="project__description">
+                        <h3 class="project__description--title">Treasure Hunter</h3>
+
+                        <h4 class="project__description--sub-title">Java</h4>
+
+                        <p class="project__description--para">
+                           Treasure Hunter is a 2D single-player arcade type game created using Java along with the
+                           educational IDE Greenfoot.
+                           The objective is to gain as many points as possible whilst dodging a scaling difficulty of
+                           traps trying to stop you.
+                           Compete against friends and get yourself on the leaderboard!
+                        </p>
+
+                        <div class="project__description--links">
+                           <a href="https://github.com/rayyanmshaikh/Treasure-Hunter-Game" target="_blank"
+                              class="project__description--link">
+                              <i class="fab fa-github"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+
+               <li class="project">
+                  <div class="project__wrapper">
+                     <img src="./assets/boggle.png" class="project__img" alt="Boggle">
+
+                     <div class="project__description">
+                        <h3 class="project__description--title">Boggle</h3>
+
+                        <h4 class="project__description--sub-title">Java</h4>
+
+                        <p class="project__description--para">
+                           A remake on the hit game Boggle, this was created using Java with various libraries and
+                           modules in a group of 4.
+                           With various features to personalize the game to your preference, and able to continue from
+                           where you last left off
+                           this is a great way to waste some of your boredom away.
+                        </p>
+                     </div>
+                  </div>
+               </li>
+
             </ul>
 
-         </nav>
-
-         <!-- Change so big picture taking up the left before the language stack and text right beside it with contacts below the text or pic -->
-         <div class="flex flex-1">
-            <div class="about-me__info row">
-               <div class="about-me__info--container">
-                  <figure class="about-me__picture--mask"><img src="./assets/me2.jpg" class="about-me__picture" alt="A Picture of Me!"></figure>
-
-                  <h1 class="about-me__info--title">Hey! I'm <span class="text--green">Rayyan Shaikh</span>&nbsp;<span class="wave">👋</span></h1>
-
-                  <p class="about-me__info--para">
-                     I am an <strong class="text--green">aspiring software engineer studying at the University of Toronto,</strong> with a strong passion for building
-                     responsive and performant 
-                     applications that have a positive impact on the world.
-                  </p>
-
-                  <div class="about-me__links">
-                     <a href="https://www.linkedin.com/in/rayyan-m-shaikh/" class="about-me__link" target="_blank">
-                     <i class="fab fa-linkedin-in fa-xl"></i>
-                     </a>
-
-                     <a href="https://github.com/rayyanmshaikh" class="about-me__link" target="_blank">
-                     <i class="fab fa-github fa-xl"></i>
-                     </a>
-
-                     <a href="mailto:rayyan.shaikh@mail.utoronto.ca" class="about-me__link" target="_blank">
-                     <i class="fa-solid fa-envelope fa-xl"></i>
-                     </a>
-
-                     <a href="https://drive.google.com/file/d/1PFC8FInwBTAkt8-L53S1oqUR8VLiByob/view?usp=drive_link" target="_blank" class="about-me__link" target="_blank">
-                     <i class="fa-solid fa-file fa-xl"></i>
-                     </a>
-
-                  </div>
-
-               </div>
-
-               <figure class="about-me__img--container"><img src="./assets/undraw_websites.svg" class="about-me__img" alt=""></figure>
-
-            </div>
          </div>
-      </section>
+      </div>
+   </section>
 
-      <section id="languages">
-         <div class="container">
-            <div class="row">
-               <h1 class="section__title">This is my <span class="text--green">technology stack</span></h1>
-               
-               <div class="language__list">
-                  <div class="language">
-                     <figure class="language__img--wrapper"><img src="./assets/HTML5.png" alt="HTML Logo" class="language__img"/></figure>
-                     <span class="language__name">HTML</span>
+   <section id="smaller projects">
+      <div class="container">
+         <div class="row">
+            <h1 class="section__title">Here are some more impactful <span class="text--green">projects</span></h1>
+
+            <ul class="project__list">
+               <li class="project">
+                  <div class="project__wrapper">
+                     <img src="./assets/huffman2.png" class="project__img" alt="Huffman Compression">
+
+                     <div class="project__description">
+                        <h3 class="project__description--title">Huffman Compression</h3>
+
+                        <h4 class="project__description--sub-title">Python</h4>
+
+                        <p class="project__description--para">
+                           A program that allows users to compress and decompress any file type from images to text
+                           files using Huffman
+                           compression. On average, can reduce a file size to 25% of its original.
+                        </p>
+                     </div>
                   </div>
+               </li>
 
-                  <div class="language">
-                     <figure class="language__img--wrapper"><img src="./assets/CSS3.png" alt="CSS Logo" class="language__img"/></figure>
-                     <span class="language__name">CSS</span>
+               <li class="project">
+                  <div class="project__wrapper">
+                     <img src="./assets/Farquad.png" class="project__img" alt="Farquad Discord Bot">
+
+                     <div class="project__description">
+                        <h3 class="project__description--title">Farquad - Discord Bot</h3>
+
+                        <h4 class="project__description--sub-title">Python</h4>
+
+                        <p class="project__description--para">
+                           Farquad is a Discord bot created to assist users in administrating a server with helpful
+                           features such as pinging,
+                           banning, unbanning and more. This bot utilizes Python and the Discord API.
+                        </p>
+
+                        <div class="project__description--links">
+                           <a href="https://github.com/rayyanmshaikh/Discord-Farquad-Bot" target="_blank"
+                              class="project__description--link"><i class="fab fa-github"></i></a>
+                        </div>
+
+                     </div>
                   </div>
+               </li>
+            </ul>
 
-                  <div class="language">
-                     <figure class="language__img--wrapper"><img src="./assets/Javascript.png" alt="JavaScript Logo" class="language__img"/></figure>
-                     <span class="language__name">JavaScript</span>
-                  </div>
-
-                  <div class="language">
-                     <figure class="language__img--wrapper"><img src="./assets/PHP.png" alt="PHP Logo" class="language__img"/></figure>
-                     <span class="language__name">PHP</span>
-                  </div>
-
-                  <div class="language">
-                     <figure class="language__img--wrapper"><img src="./assets/Python.png" alt="Python Logo" class="language__img"/></figure>
-                     <span class="language__name">Python</span>
-                  </div>
-
-                  <div class="language">
-                     <figure class="language__img--wrapper"><img src="./assets/Java.png" alt="Java Logo" class="language__img" /></figure>
-                     <span class="language__name">Java</span>
-                  </div>
-
-                  <div class="language">
-                     <figure class="language__img--wrapper"><img src="./assets/C.png" alt="C Logo" class="language__img" /></figure>
-                     <span class="language__name">C</span>
-                  </div>
-
-                  <div class="language">
-                     <figure class="language__img--wrapper"><img src="./assets/R.svg" alt="R Logo" class="language__img"/></figure>
-                     <span class="language__name">R</span>
-                  </div>
-
-               </div>
-            </div>
          </div>
-      </section>
+      </div>
+   </section>
 
-      <section id="projects">
-         <div class="container">
-            <div class="row">
-               <h1 class="section__title">Here are some of my <span class="text--green">projects</span></h1>
+   <footer>
+      <div class="row footer__row">
+         <a href="#" class="footer__anchor">
+            <figure class="footer__logo"><img src="./assets/logo.png" class="footer__logo--img" alt=""></figure>
+            <span class="footer__logo--popper">Top<i class="fas fa-arrow-up"></i></span>
+         </a>
 
-               <ul class="project__list">
-                  <li class="project">
-                     <div class="project__wrapper">
-                        <img src="./assets/Treasure Hunter.png" class="project__img" alt="Treasure Hunter Java Game">
-
-                        <div class="project__description">
-                           <h3 class="project__description--title">Treasure Hunter</h3>
-                           
-                           <h4 class="project__description--sub-title">Java</h4>
-
-                           <p class="project__description--para">
-                              Treasure Hunter is a 2D single-player arcade type game created using Java along with the educational IDE Greenfoot.
-                              The objective is to gain as many points as possible whilst dodging a scaling difficulty of traps trying to stop you.
-                              Compete against friends and get yourself on the leaderboard!
-                           </p>
-
-                           <div class="project__description--links">
-                              <a href="https://github.com/rayyanmshaikh/Treasure-Hunter-Game" target="_blank" class="project__description--link">
-                              <i class="fab fa-github"></i>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                  </li>
-
-                  <li class="project">
-                     <div class="project__wrapper">
-                        <img src="./assets/boggle.png" class="project__img" alt="Boggle">
-
-                        <div class="project__description">
-                           <h3 class="project__description--title">Boggle</h3>
-                           
-                           <h4 class="project__description--sub-title">Java</h4>
-
-                           <p class="project__description--para">
-                              A remake on the hit game Boggle, this was created using Java with various libraries and modules in a group of 4.
-                              With various features to personalize the game to your preference, and able to continue from where you last left off
-                              this is a great way to waste some of your boredom away.
-                           </p>
-                        </div>
-                     </div>
-                  </li>
-
-               </ul>
-
-            </div>
-         </div>
-      </section>
-
-      <section id="smaller projects">
-         <div class="container">
-            <div class="row">
-               <h1 class="section__title">Here are some more impactful <span class="text--green">projects</span></h1>
-
-               <ul class="project__list">
-                  <li class="project">
-                     <div class="project__wrapper">
-                        <img src="./assets/huffman2.png" class="project__img" alt="Huffman Compression">
-
-                        <div class="project__description">
-                           <h3 class="project__description--title">Huffman Compression</h3>
-
-                           <h4 class="project__description--sub-title">Python</h4>
-
-                           <p class="project__description--para">
-                              A program that allows users to compress and decompress any file type from images to text files using Huffman
-                              compression. On average, can reduce a file size to 25% of its original.
-                           </p>
-                        </div>
-                     </div>
-                  </li>
-
-                  <li class="project">
-                     <div class="project__wrapper">
-                        <img src="./assets/Farquad.png" class="project__img" alt="Farquad Discord Bot">
-
-                        <div class="project__description">
-                           <h3 class="project__description--title">Farquad - Discord Bot</h3>
-
-                           <h4 class="project__description--sub-title">Python</h4>
-
-                           <p class="project__description--para">
-                              Farquad is a Discord bot created to assist users in administrating a server with helpful features such as pinging,
-                              banning, unbanning and more. This bot utilizes Python and the Discord API.
-                           </p>
-
-                           <div class="project__description--links">
-                              <a href="https://github.com/rayyanmshaikh/Discord-Farquad-Bot" target="_blank" class="project__description--link"><i class="fab fa-github"></i></a>
-                           </div>
-
-                        </div>
-                     </div>
-                  </li>
-               </ul>
-
-            </div>
-         </div>
-      </section>
-
-      <footer>
-         <div class="row footer__row">
-            <a href="#" class="footer__anchor">
-               <figure class="footer__logo"><img src="./assets/logo.png" class="footer__logo--img" alt=""></figure>
-               <span class="footer__logo--popper">Top<i class="fas fa-arrow-up"></i></span>
-            </a>
-
-            <div class="footer__social--list">
-               <a href="https://www.linkedin.com/in/rayyan-m-shaikh/" target="_blank" class="
+         <div class="footer__social--list">
+            <a href="https://www.linkedin.com/in/rayyan-m-shaikh/" target="_blank" class="
                   footer__social--link
                   link__hover-effect
                   link__hover-effect--white
                   " target="_blank">LinkedIn</a>
 
-                <a href="https://github.com/rayyanmshaikh" target="_blank" class="
+            <a href="https://github.com/rayyanmshaikh" target="_blank" class="
                   footer__social--link
                   link__hover-effect
                   link__hover-effect--white
                   " target="_blank">GitHub</a>
 
-               <a href="mailto:rayyan.shaikh@mail.utoronto.ca" target="_blank" class="
+            <a href="mailto:rayyan.shaikh@mail.utoronto.ca" target="_blank" class="
                   footer__social--link
                   link__hover-effect
                   link__hover-effect--white
                   " target="_blank">Email</a>
 
-               <a href="https://drive.google.com/file/d/1PFC8FInwBTAkt8-L53S1oqUR8VLiByob/view?usp=sharing" target="_blank" class="
+            <a href="https://drive.google.com/file/d/1PFC8FInwBTAkt8-L53S1oqUR8VLiByob/view?usp=sharing" target="_blank"
+               class="
                   footer__social--link
                   link__hover-effect
                   link__hover-effect--white
                   " target="_blank">Resume</a>
-            </div>
-
-            <div class="footer__copyright">Copyright © 2022 Rayyan Shaikh</div>
-
          </div>
-      </footer>
 
-   </body>
+         <div class="footer__copyright">Copyright © 2022 Rayyan Shaikh</div>
+
+      </div>
+   </footer>
+
+</body>
+
 </html>
